@@ -1,0 +1,148 @@
+1520727507576	geckodriver	INFO	geckodriver 0.19.1
+1520727507581	geckodriver	INFO	Listening on 127.0.0.1:50874
+1520727510664	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.ueVYtwWeQxWp"
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520727511049	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520727512104	Marionette	INFO	Listening on port 50882
+1520727512177	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+/ipc_channel_win.cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+[Child 13424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13424, Chrome_ChildThread] WARNING: pipe e[GPU 9240, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520727715620	Marionette	INFO	Listening on port 51017
+1520727715861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520728000095	geckodriver	INFO	geckodriver 0.19.1
+1520728000100	geckodriver	INFO	Listening on 127.0.0.1:51157
+1520728003179	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.7VbClUih2quQ"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520728003544	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520728004421	Marionette	INFO	Listening on port 51165
+1520728004684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520728026553	geckodriver	INFO	geckodriver 0.19.1
+1520728026559	geckodriver	INFO	Listening on 127.0.0.1:51248
+1520728029639	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.oSW5vxVMFK0h"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520728029989	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520728030848	Marionette	INFO	Listening on port 51256
+1520728031148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520729214245	geckodriver	INFO	geckodriver 0.19.1
+1520729214251	geckodriver	INFO	Listening on 127.0.0.1:51588
+1520729217333	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.y40gktS9CkBJ"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729217688	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729218550	Marionette	INFO	Listening on port 51596
+1520729218843	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520729410547	geckodriver	INFO	geckodriver 0.19.1
+1520729410553	geckodriver	INFO	Listening on 127.0.0.1:51761
+1520729413636	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.wmhaLkDh6pkr"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729413994	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729414846	Marionette	INFO	Listening on port 51769
+1520729415145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520729438494	geckodriver	INFO	geckodriver 0.19.1
+1520729438499	geckodriver	INFO	Listening on 127.0.0.1:51870
+1520729441580	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.Qoa8NPf4Uf27"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729441930	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729442808	Marionette	INFO	Listening on port 51878
+1520729443088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520729494196	geckodriver	INFO	geckodriver 0.19.1
+1520729494202	geckodriver	INFO	Listening on 127.0.0.1:52016
+1520729497283	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.OxVwxCl5PLQm"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729497638	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520729498511	Marionette	INFO	Listening on port 52024
+1520729498789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520730259335	geckodriver	INFO	geckodriver 0.19.1
+1520730259340	geckodriver	INFO	Listening on 127.0.0.1:52246
+1520730262422	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.409wzLdMWo3z"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520730262792	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520730263676	Marionette	INFO	Listening on port 52254
+1520730263929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520730300530	geckodriver	INFO	geckodriver 0.19.1
+1520730300536	geckodriver	INFO	Listening on 127.0.0.1:52357
+1520730303620	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.YcI628UgJU9V"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520730303986	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520730304874	Marionette	INFO	Listening on port 52365
+1520730305128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520731023126	geckodriver	INFO	geckodriver 0.19.1
+1520731023133	geckodriver	INFO	Listening on 127.0.0.1:52592
+1520731026216	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.CbYAURoxPdz8"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731026590	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731027490	Marionette	INFO	Listening on port 52600
+1520731027731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520731062585	geckodriver	INFO	geckodriver 0.19.1
+1520731062591	geckodriver	INFO	Listening on 127.0.0.1:52724
+1520731065679	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.lavIMCHMwEUv"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731066052	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731066941	Marionette	INFO	Listening on port 52732
+1520731067187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520731182071	geckodriver	INFO	geckodriver 0.19.1
+1520731182077	geckodriver	INFO	Listening on 127.0.0.1:52939
+1520731185152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\phil_\\AppData\\Local\\Temp\\rust_mozprofile.u0DozWUwZtJu"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731185538	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\phil_\AppData\Local\openvr\openvrpaths.vrpath
+1520731186416	Marionette	INFO	Listening on port 52947
+1520731186661	Marionette	WARN	TLS certificate errors will be ignored for this session
