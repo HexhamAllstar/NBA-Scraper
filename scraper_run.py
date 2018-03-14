@@ -12,10 +12,21 @@ driver = webdriver.Firefox(firefox_options=options, executable_path="geckodriver
 # get todays date
 date = datetime.now()
 # use timedelta if you want to start at a specific date
-date = date - timedelta(days=120)
+date = date - timedelta(days=0)
+
+# initialise a counter so we can reopen driver every now and then
+# I have found that this improves speed and stability
+loop_counter = 0
 
 # loop while the date is later than 17th Oct 2017, first day of the season
 while date >= datetime.strptime("17/10/2017", "%d/%m/%Y"):
+
+    if (loop_counter % 20) == 0: # every 20 loops close and reopen driver
+        driver.close()
+        driver = webdriver.Firefox(firefox_options=options, executable_path="geckodriver.exe")
+    else:
+        pass
+
     # get all results from the database to check if the current date is already in there
     results = backend.retrieve_all_results()
     if not results.empty:
@@ -44,15 +55,13 @@ while date >= datetime.strptime("17/10/2017", "%d/%m/%Y"):
         else:
             # remove blank from front of list of links
             print(date.strftime('%d/%m/%Y') + ' : ' + str(len(links) - 1) +  ' game(s) played.')
+            print('Scraping ....')
             links = links[1:]
             #iterate through the boxscore links, adding resulting dataframes to our database
-            for index, link in enumerate(links):
-                print('Retrieving data for game ' + str(index + 1) + ' of ' + str(len(links)))
-                result, home_df, away_df = scraper_funcs.get_boxscore(link, driver)
-                backend.add_result(result)
-                backend.add_boxscore(home_df)
-                backend.add_boxscore(away_df)
-
+            driver2 = webdriver.Firefox(firefox_options=options, executable_path="geckodriver.exe")
+            scraper_funcs.scrape_and_add(links, driver2) # do the scraping and add results to db
+            driver2.close() # we use a new driver for every date, reduces crashing
+            
     # once we've added all of the boxscores for the current date, remove 1 from the datetime
     date = date - timedelta(days=1)
 

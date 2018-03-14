@@ -4,3 +4,5 @@ __pycache__/
 notes.txt
 geckodriver.exe
 geckodriver.log
+.ipynb_checkpoints/
+NBADataVis.ipynb

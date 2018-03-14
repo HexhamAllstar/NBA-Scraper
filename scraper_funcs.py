@@ -9,6 +9,7 @@ from string import ascii_lowercase, digits
 from datetime import datetime
 import time
 import pandas as pd
+import backend
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -77,7 +78,7 @@ def get_boxscore(boxscore_url, driver):
             # of the divs found above.
                 teamNames.append(div.contents[0].text)
             passed = True
-        except ValueError:
+        except (IndexError,ValueError):
             time.sleep(3)
 
     passed = False
@@ -90,7 +91,7 @@ def get_boxscore(boxscore_url, driver):
             for div in divs:
                 scores.append(''.join(c for c in div.text if c in digits))
             passed = True
-        except ValueError:
+        except (IndexError,ValueError):
             time.sleep(3)
 
     # get game date from div above
@@ -102,7 +103,7 @@ def get_boxscore(boxscore_url, driver):
             gamedate = divs[0].text
             gamedate = datetime.strptime(gamedate, '%b  %d, %Y')
             passed = True
-        except ValueError:
+        except (IndexError,ValueError):
             time.sleep(3)
 
     # get gameid from the provided url
@@ -175,12 +176,25 @@ def get_table_contents(table):
             for substring in rowtext[0].split(' ')[:-1]:
                 newname += substring + ' '
                 rowtext[0] = newname[:-1]
-        # players not in the starting 5 have a space at the append
-        # i.e. 'Lebron James ', we remove this.
+        # players not in the starting 5 either have a space at the end or nothing
+        # i.e. 'Lebron James ' or 'Lebron James', we remove this space if present.
         else:
-            rowtext[0] = rowtext[0][:-1]
+            if rowtext[0].split(' ')[-1] == '':
+                rowtext[0] = rowtext[0][:-1]
+            else:
+                # do nothing
+                pass
 
         # store the row in dictionary with key as the position in the table
         tabledict[index] = rowtext
     # return the dictionary
     return tabledict
+
+def scrape_and_add(links, driver):
+    """This function takes in a list of links, grabs the boxscore using get_boxscore
+    then adds the results to the database."""
+    for index, link in enumerate(links):
+        result, home_df, away_df = get_boxscore(link, driver)
+        backend.add_result(result)
+        backend.add_boxscore(home_df)
+        backend.add_boxscore(away_df)
