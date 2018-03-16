@@ -17,7 +17,7 @@ def run_scraper(start_date="17/10/2017", end_date=datetime.strftime(datetime.now
     # create a firefox selenium driver
     driver = webdriver.Firefox(firefox_options=options, executable_path="geckodriver.exe")
     # get todays date
-    date = datetime.strptime(end_date)
+    date = datetime.strptime(end_date, "%d/%m/%Y")
 
     # initialise a counter so we can reopen driver every now and then
     # I have found that this improves speed and stability
