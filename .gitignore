@@ -6,4 +6,3 @@ geckodriver.exe
 geckodriver.log
 .ipynb_checkpoints/
 NBADataVis.ipynb
-*.png
